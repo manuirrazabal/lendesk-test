@@ -95,11 +95,9 @@ class ImagesClass
      * Example of getting a google map from 
      * @param float $lat latitude
      * @param float $long longitude
-     * @param int $width width of the google map
-     * @param int $height height of the google map
      * @return string
      */
-    private function getGoogleMap($lat, $long, $width = 600, $height = 350) {
+    private function getGoogleMap($lat, $long) {
         return 'http://maps.google.com/?q=' . $lat . ',' . $long;
     }
 }
