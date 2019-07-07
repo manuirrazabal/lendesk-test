@@ -77,7 +77,7 @@ class ExportClass
     {
         try {
             if (isset($file_name)) {
-                if (strpos($file_name, '.csv') !== false) {
+                if (strpos($file_name, '.csv') === false) {
                     $file_name .= '.csv';
                 }
                 $this->csv_file_name = $file_name;
