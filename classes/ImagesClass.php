@@ -100,7 +100,7 @@ class ImagesClass
      * @return string
      */
     private function getGoogleMap($lat, $long, $width = 600, $height = 350) {
-        return 'http://maps.google.com/?ie=UTF8&amp;hq=&amp;t=h&amp;ll=' . $lat . ',' . $long . '&amp;spn=0.016643,0.036478&amp;z=14&amp;output=embed';
+        return 'http://maps.google.com/?q=' . $lat . ',' . $long ;
     }
 }
 ?>
